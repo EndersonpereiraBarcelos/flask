@@ -1,0 +1,15 @@
+{
+    "python.analysis.autoImportCompletions": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Dracula",
+    "editor.fontFamily": "Consolas, 'Courier New', monospace, FiraCode Nerd Font",
+    "terminal.integrated.fontFamily": "FiraCode Nerd Font",
+    "files.autoSave": "afterDelay",
+    "editor.wordWrap": "on",
+    "editor.defaultFormatter": "ms-python.autopep8",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "symbols.hidesExplorerArrows": false,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    }
+}
