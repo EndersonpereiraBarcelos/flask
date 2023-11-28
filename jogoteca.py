@@ -1,6 +1,10 @@
 from flask import Flask, render_template, request, redirect
+from flask_pydantic_spec import FlaskPydanticSpec
 
 app = Flask(__name__, template_folder='template')
+
+spec = FlaskPydanticSpec('flask', title='Python Swagg')
+spec.register(app)
 
 
 class Jogo:
